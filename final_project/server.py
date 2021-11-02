@@ -1,4 +1,4 @@
-from translator import eng_to_french, french_to_eng
+from final_project.machinetranslation.translator import eng_to_french, french_to_eng
 from flask import Flask, render_template, request
 
 app = Flask("Web Translator")
